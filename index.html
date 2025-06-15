@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emirates Robotics Holdings - Phân tích thị trường Việt Nam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide Navigation -->
+        <div class="slide-navigation">
+            <div class="nav-left">
+                <div class="logo">ERH</div>
+                <div class="slide-counter">
+                    <span id="current-slide">1</span> / <span id="total-slides">14</span>
+                </div>
+            </div>
+            <div class="nav-right">
+                <button class="btn btn--secondary btn--sm" id="prev-btn">‹ Trước</button>
+                <button class="btn btn--primary btn--sm" id="next-btn">Tiếp ›</button>
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div class="slides-wrapper">
+            <!-- Slide 1: Trang bìa -->
+            <div class="slide active" data-slide="1">
+                <div class="slide-content slide-cover">
+                    <div class="cover-logo">ERH</div>
+                    <h1 class="cover-title">Phân tích thị trường<br>Emirates Robotics Holdings<br>tại Việt Nam</h1>
+                    <div class="cover-date">Tháng 6, 2025</div>
+                    <div class="cover-subtitle">Nghiên cứu chiến lược thị trường và cơ hội kinh doanh</div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Tổng quan ERH -->
+            <div class="slide" data-slide="2">
+                <div class="slide-header">
+                    <h2>Tổng quan Emirates Robotics Holdings</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="content-grid">
+                        <div class="content-section">
+                            <h3>4 Sản phẩm chính</h3>
+                            <ul class="product-list">
+                                <li><span class="icon">🤖</span> AI Robotics</li>
+                                <li><span class="icon">🏙️</span> IoT Smart City</li>
+                                <li><span class="icon">⚡</span> AI Optimization</li>
+                                <li><span class="icon">💻</span> AI Computing Platform</li>
+                            </ul>
+                        </div>
+                        <div class="content-section">
+                            <h3>Dự báo doanh thu</h3>
+                            <div class="stat-card">
+                                <div class="stat-number">30 tỷ USD</div>
+                                <div class="stat-label">trong 7 năm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="market-presence">
+                        <h3>Thị trường hoạt động</h3>
+                        <div class="market-tags">
+                            <span class="tag">USA</span>
+                            <span class="tag">EU</span>
+                            <span class="tag">Middle East</span>
+                            <span class="tag">Asia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Bối cảnh thị trường Việt Nam -->
+            <div class="slide" data-slide="3">
+                <div class="slide-header">
+                    <h2>Bối cảnh thị trường Việt Nam</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="market-stats">
+                        <div class="stat-row">
+                            <div class="stat-card">
+                                <div class="stat-number">420M USD</div>
+                                <div class="stat-label">Thị trường robotics 2023</div>
+                            </div>
+                            <div class="arrow">→</div>
+                            <div class="stat-card">
+                                <div class="stat-number">551,87M USD</div>
+                                <div class="stat-label">Dự báo 2029</div>
+                            </div>
+                        </div>
+                        <div class="growth-indicators">
+                            <div class="indicator">
+                                <div class="indicator-value">4,5%</div>
+                                <div class="indicator-label">CAGR Overall</div>
+                            </div>
+                            <div class="indicator">
+                                <div class="indicator-value">15,42%</div>
+                                <div class="indicator-label">Warehouse Robotics CAGR</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="market-drivers">
+                        <h3>Market Drivers</h3>
+                        <div class="drivers-grid">
+                            <div class="driver-item">
+                                <div class="driver-icon">📱</div>
+                                <div class="driver-text">E-commerce boom</div>
+                            </div>
+                            <div class="driver-item">
+                                <div class="driver-icon">👥</div>
+                                <div class="driver-text">Thiếu hụt lao động</div>
+                            </div>
+                            <div class="driver-item">
+                                <div class="driver-icon">💰</div>
+                                <div class="driver-text">Áp lực chi phí</div>
+                            </div>
+                            <div class="driver-item">
+                                <div class="driver-icon">📦</div>
+                                <div class="driver-text">Logistics 40 tỷ USD<br>(tăng 14-16%/năm)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Market Segmentation -->
+            <div class="slide" data-slide="4">
+                <div class="slide-header">
+                    <h2>Market Segmentation</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="segmentation-chart">
+                        <div class="segment-item" style="flex: 6;">
+                            <div class="segment-bar enterprise"></div>
+                            <div class="segment-info">
+                                <div class="segment-label">Enterprise (60%)</div>
+                                <div class="segment-examples">VinFast, Unilever, Nestlé</div>
+                            </div>
+                        </div>
+                        <div class="segment-item" style="flex: 3;">
+                            <div class="segment-bar smb"></div>
+                            <div class="segment-info">
+                                <div class="segment-label">SMB (30%)</div>
+                                <div class="segment-examples">92% quan tâm chuyển đổi số</div>
+                            </div>
+                        </div>
+                        <div class="segment-item" style="flex: 1;">
+                            <div class="segment-bar government"></div>
+                            <div class="segment-info">
+                                <div class="segment-label">Government (10%)</div>
+                                <div class="segment-examples">Smart city projects</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="industry-segments">
+                        <h3>Phân khúc theo ngành</h3>
+                        <div class="industry-grid">
+                            <div class="industry-item">E-commerce</div>
+                            <div class="industry-item">Manufacturing</div>
+                            <div class="industry-item">Healthcare</div>
+                            <div class="industry-item">Logistics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Đối thủ cạnh tranh -->
+            <div class="slide" data-slide="5">
+                <div class="slide-header">
+                    <h2>Đối thủ cạnh tranh</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="competitors-section">
+                        <div class="competitor-group">
+                            <h3>Domestic Players</h3>
+                            <div class="competitor-list">
+                                <div class="competitor-item">
+                                    <div class="competitor-name">Viettel Post</div>
+                                    <div class="competitor-details">300 robot AGV, 17% thị phần logistics</div>
+                                </div>
+                                <div class="competitor-item">
+                                    <div class="competitor-name">VinMotion</div>
+                                    <div class="competitor-details">Robot Made in Vietnam 100%</div>
+                                </div>
+                                <div class="competitor-item">
+                                    <div class="competitor-name">Vinatech Group</div>
+                                    <div class="competitor-details">Nhà máy 20.000m², 30.000 tấn/năm</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competitor-group">
+                            <h3>International Players</h3>
+                            <div class="international-competitors">
+                                <span class="int-competitor">ABB</span>
+                                <span class="int-competitor">KUKA</span>
+                                <span class="int-competitor">Fanuc</span>
+                                <span class="int-competitor">Yaskawa</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-pressure">
+                        <div class="alert-box">
+                            <strong>Áp lực giá:</strong> Robot Trung Quốc rẻ hơn 20-50%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Market Share Analysis -->
+            <div class="slide" data-slide="6">
+                <div class="slide-header">
+                    <h2>Market Share Analysis</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="market-share-grid">
+                        <div class="share-item">
+                            <div class="share-company">Viettel Post</div>
+                            <div class="share-percentage">17%</div>
+                            <div class="share-details">thị phần logistics</div>
+                        </div>
+                        <div class="share-item">
+                            <div class="share-company">VinFast</div>
+                            <div class="share-percentage">1.400+</div>
+                            <div class="share-details">robot, 90-95% automation</div>
+                        </div>
+                    </div>
+                    <div class="market-opportunity">
+                        <div class="opportunity-card">
+                            <h3>Cơ hội thị trường</h3>
+                            <p>Thị trường chưa bão hòa với nhiều cơ hội cho người chơi mới có công nghệ tiên tiến và chiến lược phù hợp.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Chân dung khách hàng -->
+            <div class="slide" data-slide="7">
+                <div class="slide-header">
+                    <h2>Chân dung khách hàng</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="customer-profile">
+                        <div class="profile-section">
+                            <h3>Demographics</h3>
+                            <ul>
+                                <li>Large enterprises (60%)</li>
+                                <li>SMB (30%)</li>
+                                <li>Government (10%)</li>
+                            </ul>
+                        </div>
+                        <div class="profile-section">
+                            <h3>Behavior</h3>
+                            <div class="behavior-stats">
+                                <div class="behavior-item">
+                                    <div class="behavior-value">6-18 tháng</div>
+                                    <div class="behavior-label">Decision cycle</div>
+                                </div>
+                                <div class="behavior-item">
+                                    <div class="behavior-value">65%</div>
+                                    <div class="behavior-label">Prefer RaaS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-section">
+                            <h3>Key Motivations</h3>
+                            <div class="motivations">
+                                <div class="motivation-item">💰 Cost reduction</div>
+                                <div class="motivation-item">⚡ Efficiency</div>
+                                <div class="motivation-item">🎯 Competitive advantage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Phân tích giá bán -->
+            <div class="slide" data-slide="8">
+                <div class="slide-header">
+                    <h2>Phân tích giá bán</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="pricing-analysis">
+                        <div class="price-range">
+                            <h3>AGV Price Range</h3>
+                            <div class="price-bar">
+                                <div class="price-point">14.000 USD</div>
+                                <div class="price-line"></div>
+                                <div class="price-point">200.000 USD</div>
+                            </div>
+                        </div>
+                        <div class="vietnam-pricing">
+                            <div class="price-comparison">
+                                <div class="price-item export">
+                                    <div class="price-label">Xuất khẩu VN</div>
+                                    <div class="price-value">16.000 USD</div>
+                                    <div class="price-desc">trung bình</div>
+                                </div>
+                                <div class="price-item import">
+                                    <div class="price-label">Nhập khẩu VN</div>
+                                    <div class="price-value">26.000 USD</div>
+                                    <div class="price-desc">trung bình</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="raas-model">
+                            <div class="raas-card">
+                                <h3>RaaS Model</h3>
+                                <div class="raas-stats">
+                                    <div class="raas-stat">
+                                        <div class="raas-value">64%</div>
+                                        <div class="raas-label">Gross margin</div>
+                                    </div>
+                                    <div class="raas-benefit">Giảm barrier entry cho khách hàng</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Sales Strategy & Channels -->
+            <div class="slide" data-slide="9">
+                <div class="slide-header">
+                    <h2>Sales Strategy & Channels</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="sales-channels">
+                        <div class="channel-item" style="flex: 4.5;">
+                            <div class="channel-bar direct"></div>
+                            <div class="channel-info">
+                                <div class="channel-name">Direct Sales</div>
+                                <div class="channel-percentage">45%</div>
+                                <div class="channel-target">Enterprise, Government</div>
+                            </div>
+                        </div>
+                        <div class="channel-item" style="flex: 3;">
+                            <div class="channel-bar distributors"></div>
+                            <div class="channel-info">
+                                <div class="channel-name">Distributors</div>
+                                <div class="channel-percentage">30%</div>
+                                <div class="channel-target">SMB, Local markets</div>
+                            </div>
+                        </div>
+                        <div class="channel-item" style="flex: 1.5;">
+                            <div class="channel-bar digital"></div>
+                            <div class="channel-info">
+                                <div class="channel-name">Digital</div>
+                                <div class="channel-percentage">15%</div>
+                                <div class="channel-target">Self-service, SMB</div>
+                            </div>
+                        </div>
+                        <div class="channel-item" style="flex: 1;">
+                            <div class="channel-bar raas"></div>
+                            <div class="channel-info">
+                                <div class="channel-name">RaaS Partners</div>
+                                <div class="channel-percentage">10%</div>
+                                <div class="channel-target">Cost-sensitive</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Financial Projections -->
+            <div class="slide" data-slide="10">
+                <div class="slide-header">
+                    <h2>Financial Projections</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="financial-overview">
+                        <div class="target-revenue">
+                            <h3>ERH Vietnam Target</h3>
+                            <div class="revenue-number">497,92M USD</div>
+                            <div class="revenue-period">trong 7 năm</div>
+                        </div>
+                        <div class="financial-breakdown">
+                            <div class="breakdown-item">
+                                <div class="breakdown-label">ROS Target</div>
+                                <div class="breakdown-value">20%</div>
+                            </div>
+                            <div class="breakdown-item">
+                                <div class="breakdown-label">COGS</div>
+                                <div class="breakdown-value">45%</div>
+                            </div>
+                            <div class="breakdown-item">
+                                <div class="breakdown-label">OpEx</div>
+                                <div class="breakdown-value">35%</div>
+                            </div>
+                            <div class="breakdown-item">
+                                <div class="breakdown-label">EBITDA</div>
+                                <div class="breakdown-value">20%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Go-to-Market Strategy -->
+            <div class="slide" data-slide="11">
+                <div class="slide-header">
+                    <h2>Go-to-Market Strategy</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="gtm-phases">
+                        <div class="phase-item">
+                            <div class="phase-number">1</div>
+                            <div class="phase-content">
+                                <h3>Phase 1: Strategic Partnerships</h3>
+                                <p>Partnerships với Viettel/VinGroup để nhanh chóng thâm nhập thị trường</p>
+                            </div>
+                        </div>
+                        <div class="phase-item">
+                            <div class="phase-number">2</div>
+                            <div class="phase-content">
+                                <h3>Phase 2: RaaS Model</h3>
+                                <p>Triển khai RaaS model cho SMB, giảm barrier entry</p>
+                            </div>
+                        </div>
+                        <div class="phase-item">
+                            <div class="phase-number">3</div>
+                            <div class="phase-content">
+                                <h3>Phase 3: Local Manufacturing</h3>
+                                <p>Xây dựng cơ sở sản xuất địa phương để tối ưu chi phí</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="success-factors">
+                        <h3>Key Success Factors</h3>
+                        <ul>
+                            <li>Technological superiority</li>
+                            <li>Local partnerships</li>
+                            <li>Flexible pricing models</li>
+                            <li>Government relations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: SWOT Analysis -->
+            <div class="slide" data-slide="12">
+                <div class="slide-header">
+                    <h2>SWOT Analysis</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="swot-grid">
+                        <div class="swot-item strengths">
+                            <h3>Strengths</h3>
+                            <ul>
+                                <li>Comprehensive portfolio</li>
+                                <li>Advanced technology</li>
+                                <li>Global experience</li>
+                                <li>Strong R&D</li>
+                            </ul>
+                        </div>
+                        <div class="swot-item weaknesses">
+                            <h3>Weaknesses</h3>
+                            <ul>
+                                <li>New brand in Vietnam</li>
+                                <li>High capital requirement</li>
+                                <li>Limited local presence</li>
+                                <li>Premium pricing</li>
+                            </ul>
+                        </div>
+                        <div class="swot-item opportunities">
+                            <h3>Opportunities</h3>
+                            <ul>
+                                <li>Market growth 15.42% CAGR</li>
+                                <li>Government support</li>
+                                <li>E-commerce boom</li>
+                                <li>Labor shortage</li>
+                            </ul>
+                        </div>
+                        <div class="swot-item threats">
+                            <h3>Threats</h3>
+                            <ul>
+                                <li>Price competition</li>
+                                <li>Strong local players</li>
+                                <li>Chinese low-cost robots</li>
+                                <li>Economic uncertainty</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Recommendations -->
+            <div class="slide" data-slide="13">
+                <div class="slide-header">
+                    <h2>Recommendations</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="recommendations">
+                        <div class="recommendation-item priority-high">
+                            <div class="rec-icon">🎯</div>
+                            <div class="rec-content">
+                                <h3>Ưu tiên RaaS Model</h3>
+                                <p>Triển khai mô hình RaaS để giảm rào cản tài chính cho khách hàng SMB</p>
+                            </div>
+                        </div>
+                        <div class="recommendation-item priority-high">
+                            <div class="rec-icon">🤝</div>
+                            <div class="rec-content">
+                                <h3>Partnership Strategy</h3>
+                                <p>Xây dựng quan hệ đối tác chiến lược với Viettel, VinGroup</p>
+                            </div>
+                        </div>
+                        <div class="recommendation-item priority-medium">
+                            <div class="rec-icon">🌏</div>
+                            <div class="rec-content">
+                                <h3>Local Adaptation</h3>
+                                <p>Tùy chỉnh sản phẩm phù hợp với đặc thù thị trường Việt Nam</p>
+                            </div>
+                        </div>
+                        <div class="recommendation-item priority-medium">
+                            <div class="rec-icon">📈</div>
+                            <div class="rec-content">
+                                <h3>Phased Market Entry</h3>
+                                <p>Tiếp cận thị trường theo từng giai đoạn, bắt đầu từ Enterprise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Kết luận -->
+            <div class="slide" data-slide="14">
+                <div class="slide-header">
+                    <h2>Kết luận</h2>
+                </div>
+                <div class="slide-content slide-conclusion">
+                    <div class="key-takeaways">
+                        <h3>Key Takeaways</h3>
+                        <ul class="takeaway-list">
+                            <li>Thị trường robotics Việt Nam có tiềm năng lớn với CAGR 15.42% cho warehouse robotics</li>
+                            <li>RaaS model là chìa khóa để thâm nhập thị trường SMB</li>
+                            <li>Partnerships chiến lược cần thiết để nhanh chóng xây dựng thị phần</li>
+                            <li>Mục tiêu 497.92M USD trong 7 năm là khả thi với chiến lược đúng đắn</li>
+                        </ul>
+                    </div>
+                    <div class="next-steps">
+                        <h3>Next Steps</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-period">Q3 2025</div>
+                                <div class="timeline-task">Thiết lập partnerships</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-period">Q4 2025</div>
+                                <div class="timeline-task">Triển khai pilot projects</div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-period">2026</div>
+                                <div class="timeline-task">Mở rộng RaaS model</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
